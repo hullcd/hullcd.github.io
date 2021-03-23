@@ -20,6 +20,7 @@ var compareGuesses = (humanGuess,computerGuess, target) => {
 }
 };
 
+//updates the score depending on who won
 var updateScore = (humanScore, computerScore) => {
   if (compareGuesses === true) {
     return humanScore + 1;
@@ -28,6 +29,7 @@ var updateScore = (humanScore, computerScore) => {
   }
 };
 
+//increases the round number in increments
 let advanceRound = (currentRoundNumber) => {
     do {
         currentRoundNumber++;
