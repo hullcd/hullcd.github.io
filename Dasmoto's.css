@@ -1,0 +1,38 @@
+h1, h2, h3, p {
+    font-family: "Helvetica", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  color: khaki;
+}
+
+.item h2 {
+    font-size: 32px;
+    color: red;
+}
+.highlight {
+    font-weight: bold;
+    color: blue;
+}
+
+#brushes {
+  background-color: mediumspringgreen;
+}
+#frames {
+  background-color: lightcoral;
+}
+#paint {
+  background-color: skyblue;
+}
+
+.image {
+  background-image: no-repeat;
+  background-position: center;
+  width: 100%;
+  max-height 300px;
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
+}
